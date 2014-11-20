@@ -3,9 +3,11 @@
 
 import socket
 import colorsys # for HSV-to-RGB-conversion
-from PIL import Image, GifImagePlugin, ImageSequence, ImageOps
 import time
 import sys
+
+from PIL import Image, GifImagePlugin, ImageSequence, ImageOps
+
 
 # UDP_IP = "10.0.0.200"
 UDP_PORT = 1337
